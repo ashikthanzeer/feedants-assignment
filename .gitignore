@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+server/dist/
+mobile/dist/
+
+# Environment (never commit real values)
+.env
+.env.local
+*.env
+!*.env.example
+
+# Expo
+.expo/
+mobile/.expo/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
